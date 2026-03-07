@@ -1,0 +1,42 @@
+{
+  "categories": [
+    {
+      "id": "c1",
+      "name": "Typical Dishes",
+      "image": "/images/categories/tacos.jpg",
+      "products": [
+        {
+          "id": "taco1",
+          "name": "Chicken Taco",
+          "price": 3.99,
+          "image": "/images/products/taco1.jpg"
+        },
+        {
+          "id": "taco2",
+          "name": "Beef Taco",
+          "price": 4.49,
+          "image": "/images/products/taco2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "burritos",
+      "name": "Burritos",
+      "image": "/images/categories/burritos.jpg",
+      "products": [
+        {
+          "id": "burrito1",
+          "name": "Veggie Burrito",
+          "price": 6.99,
+          "image": "/images/products/burrito1.jpg"
+        },
+        {
+          "id": "burrito2",
+          "name": "Steak Burrito",
+          "price": 7.99,
+          "image": "/images/products/burrito2.jpg"
+        }
+      ]
+    }
+  ]
+}

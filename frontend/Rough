@@ -1,0 +1,6 @@
+Rename Script:
+
+$i = 1
+Get-ChildItem -File | ForEach-Object { Rename-Item $_ -NewName "p6_$i$($_.Extension)"; $i++ }
+
+
