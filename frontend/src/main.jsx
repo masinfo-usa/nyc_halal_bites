@@ -12,8 +12,8 @@ const GOOGLE_MAP_LIBRARIES = ["places"];
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#108910', // Green color for primary
-      brightcolor: '#90ee90', // Green color for primary
+      main: '#000', // Green color for primary
+      brightcolor: '#FFA500', // Green color for primary
     },
     secondary: {
       main: '#f7f5f0', // Beige color for secondary

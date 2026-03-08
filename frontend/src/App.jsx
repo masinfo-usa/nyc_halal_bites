@@ -112,7 +112,6 @@ useEffect(() => {
 
 
 
-//"#f7f5f0"
   return (
       <Box px={0} sx={{backgroundColor:'#ffffffff'}}>
 

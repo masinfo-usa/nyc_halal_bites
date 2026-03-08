@@ -1,90 +1,77 @@
 const upsellProducts = {
 
-  "Drinks": [
-    {
-      _id: "p10_1",
-      name: "Agua Fresca - Horchata",
-      price: 4.95,
-      description: "A refreshing rice-based drink blended with cinnamon and a touch of sweetness.",
-    },
-    {
-      _id: "p10_2",
-      name: "Agua Fresca - Jamaica",
-      price: 4.95,
-      description: "A chilled hibiscus flower drink with a tangy, lightly sweet flavor.",
-    },
-    {
-      _id: "p10_3",
-      name: "Agua Fresca - Pineapple",
-      price: 4.95,
-      description: "Fresh pineapple blended with water for a sweet and tropical refreshment.",
-    },
-    {
-      _id: "p10_4",
-      name: "Agua Fresca - Cantaloupe Melon",
-      price: 4.95,
-      description: "Smooth cantaloupe melon blended into a lightly sweet and refreshing drink.",
-    },
-  ],
+    "Drinks": [
+      {
+        "_id": "p6_1",
+        "name": "Arizona Watermelon Juice Cocktail",
+        "price": 1.99,
+        "description": "A sweet and refreshing watermelon-flavored juice cocktail."
+      },
+      {
+        "_id": "p6_2",
+        "name": "Arizona Fruit Punch Juice",
+        "price": 1.99,
+        "description": "A vibrant blend of fruit flavors, delivering a delicious fruity punch."
+      },
+      {
+        "_id": "p6_3",
+        "name": "Arizona Mucho Mango",
+        "price": 1.99,
+        "description": "A tropical mango-flavored juice that’s sweet, tangy, and refreshing."
+      },
+      {
+        "_id": "p6_4",
+        "name": "Coke",
+        "price": 1.99,
+        "description": "Classic cola drink"
+      },
+      {
+        "_id": "p6_5",
+        "name": "Sprite",
+        "price": 1.99,
+        "description": "A refreshing citrus-flavored soda."
+      },
+      {
+        "_id": "p6_6",
+        "name": "Diet Coke",
+        "price": 1.99,
+        "description": "A zero-calorie version of the classic cola drink."
+      }
+    ],
 
-  "Desserts": [
-    {
-      _id: "p13_1",
-      name: "Churros",
-      price: 5.95,
-      description: "Golden fried dough sticks rolled in cinnamon sugar. Served warm.",
-    },
-    {
-      _id: "p13_2",
-      name: "Burrito Banana",
-      price: 6.95,
-      description: "Sweet banana wrapped in a soft tortilla, lightly fried and drizzled with honey or chocolate.",
-    },
-    {
-      _id: "p13_3",
-      name: "Cinnamon Chips",
-      price: 5.95,
-      description: "Crispy tortilla chips dusted with cinnamon sugar, perfect for sharing.",
-    },
-    {
-      _id: "p13_4",
-      name: "Flan Casero",
-      price: 6.95,
-      description: "Traditional homemade caramel flan with a smooth, creamy texture.",
-    },
-  ],
 
     "Sauces": [
     {
-      _id: "p11_1",
-      name: "Chips Salsa",
+      _id: "p21_1",
+      name: "White Sauce",
       price: 0.95,
-      description: "Classic tomato salsa with onions, cilantro, and mild spices.",
+      description: "Creamy and tangy white sauce made with a blend of yogurt, mayonnaise, garlic, and herbs — the perfect accompaniment to our halal dishes.",
     },
     {
-      _id: "p11_2",
-      name: "Guacamole Salsa",
+      _id: "p21_2",
+      name: "Green Sauce",
       price: 0.95,
-      description: "Creamy avocado-based salsa with fresh lime, cilantro, and mild seasoning.",
+      description: "Zesty green sauce made with fresh herbs, garlic, and a hint of lime for a bright and tangy flavor.",
     },
     {
-      _id: "p11_3",
-      name: "White Chipotle Salsa",
+      _id: "p21_3",
+      name: "Chipotle Sauce",
       price: 0.95,
-      description: "Smooth and creamy chipotle salsa with a smoky, mildly spicy kick.",
+      description: "Smoky and spicy chipotle sauce made with roasted jalapeños, garlic, and a hint of lime for a bold flavor kick.",
     },
     {
-      _id: "p11_4",
-      name: "Salsa Verde",
+      _id: "p21_4",
+      name: "Hot Sauce",
       price: 0.95,
-      description: "Tangy tomatillo-based green salsa with fresh herbs and a bright flavor.",
+      description: "Fiery hot sauce made with a blend of chili peppers, vinegar, and spices for those who like it spicy.",
     },
     {
-      _id: "p11_5",
-      name: "Smoked Dry Pepper Salsa",
+      _id: "p21_5",
+      name: "Barbeque Sauce",
       price: 0.95,
-      description: "Bold and smoky salsa made from dried peppers with a rich, spicy flavor.",
+      description: "Rich and smoky barbeque sauce with a perfect balance of sweet and tangy flavors.",
     },
+
   ],
 
 

@@ -39,17 +39,18 @@ export default function ViewBagButton({ isCartOpen, onClick }) {
               alignItems: "center",
               justifyContent: "center",
               width: "100%",
-              backgroundColor: brightColor,
-              borderRadius: 50,
+              backgroundColor: 'primary.main',
+              borderRadius: 3,
               padding: "12px 22px",
               textTransform: "none",
               boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
               fontWeight: "bold",
               fontSize: "1rem",
               color: "#000",
-              border: '1px solid #00b300',
+              border: 2,
+              borderColor: 'primary.main',
               "&:hover": {
-                backgroundColor: "#9EE37D",
+                backgroundColor: "primary.main",
                 boxShadow: "0 6px 16px rgba(0,0,0,0.2)",
               },
             }}
@@ -75,7 +76,7 @@ export default function ViewBagButton({ isCartOpen, onClick }) {
                 position: "absolute",
                 right: "14px",
                 top: "10px",
-                backgroundColor: "#015c0d",
+                backgroundColor: "#444",
                 color: 'primary.contrastText',
                 fontSize: "0.9rem",
                 fontWeight: "bold",
@@ -83,7 +84,7 @@ export default function ViewBagButton({ isCartOpen, onClick }) {
                 py: 0.3,
                 borderRadius: "20px",
                 boxShadow: "0 2px 6px rgba(255, 255, 255, 0.2)",
-                border: '1px solid #00b300',
+                border: '0px solid #fff',
 
               }}
             >

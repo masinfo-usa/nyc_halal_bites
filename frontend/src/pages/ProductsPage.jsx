@@ -193,7 +193,7 @@ useEffect(() => {
             "& .MuiTabs-indicator": {
             backgroundColor: "#000", // 👈 underline color
             height: 0,
-            borderRadius: 10,
+            borderRadius: 2,
           }, 
           }}
         >
@@ -204,7 +204,9 @@ useEffect(() => {
               borderRadius: 16, mx:1, my:1,
               "&.Mui-selected": {
                 backgroundColor: "primary.main",
-                border: '1px solid #00b300',
+                border: 2,
+                borderColor: 'primary.brightcolor',
+                
                 color: "#fff", // 👈 active tab text color
                 fontWeight: 600,
               },
@@ -219,10 +221,10 @@ useEffect(() => {
         <Box
           key={cat}
           ref={sectionRefs.current[cat]}
-          sx={{ pt: 0, pb: 5, mb: 2, scrollMarginTop: "125px", borderBottom: '1.5px solid #48c54eff' }} // offset for sticky tabs
+          sx={{ pt: 0, pb: 5, mb: 2, scrollMarginTop: "125px", borderBottom: 1.5, borderColor: 'primary.brightcolor' }} // offset for sticky tabs
           
         >
-          <Typography variant="h5" fontWeight="bold"  sx={{mb: 2, color: '#48c54eff'}}>
+          <Typography variant="h5" fontWeight="bold"  sx={{mb: 2, color: 'primary.main'}}>
             {cat}
           </Typography>
           <Box

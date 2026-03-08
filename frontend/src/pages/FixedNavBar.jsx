@@ -42,18 +42,14 @@ const theme = createTheme({
     primary: {
       main: "#108910",
     },
-    secondary: {
-      main: "#f7f5f0",
-    },
+   
   },
 });
 
-const brightColor = 'lightgreen'
 
 const links = [
   { text: "MAIN MENU", href: "/" },
-  // { text: "ORDER PICKUP", href: "/" },
-  // { text: "ORDER DELIVERY", href: "/orderdelivery" },
+  { text: "ORDER DELIVERY", href: "/orderdelivery" },
   { text: "GALLERY", href: "/gallery" },
   { text: "ABOUT US", href: "/homepage" },
 ];
@@ -100,12 +96,11 @@ function FixedNavBar() {
 
 
   return (
-    <ThemeProvider theme={theme}>
+    <>
       <CssBaseline />
-      {/* position="fixed" */}
-      <AppBar position={isMediumScreen ? 'sticky' : 'sticky'} sx={{backgroundColor: "#000", 
+      <AppBar position={isMediumScreen ? 'sticky' : 'sticky'} sx={{backgroundColor: "#fff", 
       zIndex: theme.zIndex.drawer - 1, boxShadow: 'none', 
-      borderBottom: "1px solid #48c54eff",
+      borderBottom: "1px solid #ccc",
       p:0,
         
                }}>
@@ -127,7 +122,7 @@ function FixedNavBar() {
               sx={{ marginLeft: '0px',
                 marginRight: '0px',
                 backgroundColor: '', 
-                color: brightColor, 
+                color: 'primary.main', 
                 borderRadius: '8px',
                 height: '40px',
                }}
@@ -159,7 +154,7 @@ function FixedNavBar() {
                     href={link.href}
                     onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                     sx={{
-                      color: 'lightgreen',
+                      color: 'primary.main',
                       textDecoration: 'none',
                       fontWeight: 500,
                       fontFamily: 'Roboto Slab',
@@ -168,8 +163,8 @@ function FixedNavBar() {
                       my: 1,
                       borderRadius: 2,
                       '&:hover': {
-                        color: '#000',
-                        bgcolor: 'lightgreen',
+                        color: 'primary.brightcolor',
+                        bgcolor: 'primary.main',
                       },
                     }}
                   >
@@ -279,7 +274,7 @@ function FixedNavBar() {
 >
   <Box sx={{ width: '100%', height: '100%', 
     padding: 2, position: 'relative', 
-    backgroundColor: '#222',
+    backgroundColor: 'primary.main',
     }}>
     {/* <IconButton
       onClick={() => setNavOpen(false)}
@@ -371,7 +366,7 @@ function FixedNavBar() {
       color: '#fff',  
       backgroundColor: '',
       '&:hover': {
-        backgroundColor: '#2bb800ff', // Remove shadow on hover
+        color: 'primary.brightcolor', // Remove shadow on hover
       },
     }}
   >
@@ -940,7 +935,7 @@ function FixedNavBar() {
       <Button
         disabled = {!isStoreOpen}
         sx={{
-          backgroundColor: isUpsellChanged ? 'primary.main' : brightColor,
+          backgroundColor: isUpsellChanged ? 'primary.main' : 'primary.brightcolor',
           borderRadius: '30px',
           color: isUpsellChanged ? 'primary.contrastText' : '#000',
           fontWeight: 'bold',
@@ -967,21 +962,7 @@ function FixedNavBar() {
       >
       
         {isUpsellChanged ? "Done" : "Skip"}
-        {/* <Box
-          sx={{
-            position: 'absolute',
-            right: '16px', // Position from the right side
-            backgroundColor: '#353535ff',
-            color: isUpsellChanged ? brightColor : "#fff",
-            fontSize: '0.9rem',
-            fontWeight: 'bold',
-            px: 2,
-            py: 0.5,
-            borderRadius: '20px',
-          }}
-        >
-          ${calculateTotalPrice()}
-        </Box> */}
+
       </Button>
     </Box>
   )}
@@ -989,9 +970,8 @@ function FixedNavBar() {
 </Drawer>
 
 
+</>
 
-
-    </ThemeProvider>
   );
 }
 

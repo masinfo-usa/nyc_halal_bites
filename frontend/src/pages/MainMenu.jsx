@@ -20,60 +20,35 @@ export default function MainMenu() {
 
 const categories = [
   {
-    name: "Typical Dishes",
-    image: category1,
-    description: "Authentic Mexican plates packed with tradition and bold flavors.",
-  },
-  {
-    name: "Side Orders",
-    image: category2,
-    description: "The perfect add-ons to complete your meal — crispy, cheesy, or spicy.",
-  },
-  {
-    name: "Tacos",
-    image: category3,
-    description: "Soft or crunchy, each taco is a flavor-packed bite of Mexico.",
-  },
-  {
-    name: "Burritos",
-    image: category4,
-    description: "Rolled up goodness stuffed with your favorite fillings and sauces.",
-  },
-  {
-    name: "Breakfast Burritos",
-    image: category5,
-    description: "Start your morning with fresh eggs, meats, and Mexican spice in every bite.",
-  },
-  {
-    name: "Quesadillas",
-    image: category6,
-    description: "Golden grilled tortillas with melty cheese and delicious fillings inside.",
-  },
-  {
-    name: "Signature Burritos",
-    image: category7,
-    description: "Our one-of-a-kind burritos — loaded, saucy, and bursting with personality.",
-  },
-  {
-    name: "Chicken Lovers",
-    image: category8,
-    description: "Tender, juicy chicken served up in our fan-favorite styles.",
-  },
-  {
-    name: "Tortas Sandwiches",
-    image: category9,
-    description: "Freshly baked bread stacked with meats, veggies, and Mexican flavor.",
-  },
-  {
-    name: "Drinks",
-    image: category10,
-    description: "Refreshing aguas frescas and beverages to cool you down.",
-  },
-  // {
-  //   name: "Sauces",
-  //   image: category11,
-  //   description: "A variety of salsas with fresh ingredients and bold flavors.",
-  // },
+  name: "Platters",
+  image: category1,
+  description: "Classic New York–style halal platters served over seasoned basmati rice with fresh salad and our famous house white sauce.",
+},
+{
+  name: "Gyros",
+  image: category2,
+  description: "Warm pita wraps filled with juicy halal chicken, lamb, or crispy falafel, topped with fresh vegetables and creamy white sauce.",
+},
+{
+  name: "Hero Sandwiches",
+  image: category3,
+  description: "Loaded 12-inch hero sandwiches packed with grilled meats, melted cheese, and flavorful sauces, served with crispy fries.",
+},
+{
+  name: "Fresh Salads",
+  image: category4,
+  description: "Healthy and refreshing salads made with fresh vegetables and topped with grilled halal chicken or lamb.",
+},
+{
+  name: "Sides",
+  image: category7,
+  description: "Perfect extras to complement your meal, including crispy fries and other tasty add-ons.",
+},
+{
+  name: "Drinks",
+  image: category8,
+  description: "Refreshing drinks including a variety of Arizona flavors and cold beverages to pair with your meal.",
+}
 
 ];
 
